@@ -1,0 +1,35 @@
+html {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: monospace;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    font-size: x-large;
+    width: 25vw;
+    border: none;
+    font-family: monospace;
+}
+
+#app {
+    background-color: darkblue;
+    margin-top: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+}

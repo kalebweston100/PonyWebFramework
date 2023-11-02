@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link href="/style" rel="stylesheet"/>
+        <script src="/lib"></script>
+        <script src="/app"></script>
+    </head>
+    <body>
+        <h1>Pony Web Framework</h1>
+        <button onclick="load_page('introduction')">Introduction</button>
+        <button onclick="load_page('motivation')">Motivation</button>
+        <button onclick="load_page('tutorial')">Tutorial</button>
+
+        <div id="app"></div>
+
+        <div id="introduction">
+            <h2>Introduction</h2>
+            <p>Pony is meant to be an ultra-simple web framework for quick and 
+                efficient development of static sites.</p>
+        </div>
+
+        <div id="motivation">
+            <h2>Motivation</h2>
+            <p>I found that while developing sites for clients, 
+                I was doing the same tedious setup with other web frameworks that 
+                had functionality that was overkill for the projects.</p>
+        </div>
+
+        <div id="tutorial">
+            <h2>Tutorial</h2>
+            <p>Pony is innately unopiniated towards how you want to develop. 
+                It provides simple functionality for creating a Single Page Application,
+                and with such a small codebase it should be easy for developers to understand 
+                everything it does under the hood. Simply create the pages as divs with an id and
+                add the page id to the array in app.js. The load_page method can then be used to 
+                asynchronously switch the page being displayed in the #app div. The backend is a
+                custom asynchronous multi-tasking server coded in Rust, so it handles multiple connections
+                efficiently.
+            </p>
+        </div>
+    </body>
+</html>
